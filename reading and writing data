@@ -117,11 +117,11 @@ getwd()
 input_csv.df <- read.csv(file="C:\\Ram\\R for Data Science\\data\\binary.csv")
 
 # reset directory and read file
-setwd("C:\\Ram\\R for Data Science\\data")
+setwd("C:/Users/Apurva Bhinda/Desktop/Term 4/AMMA/codes/data")
 input_csv.df <- read.csv("C:\\Users\\Dell\\Desktop\\Term 4\\AMMA\\data_2017\\binary.csv",header = T)
 df_csv <- read.csv("C:\\Users\\Dell\\Desktop\\Term 4\\AMMA\\data_2017\\binary.csv",header = T)
 
-setwd("C:\\Users\\Dell\\Desktop\\Term 4\\AMMA\\data_2017")
+setwd("CC:/Users/Apurva Bhinda/Desktop/Term 4/AMMA/codes/data_2017")
 
 summary(input_csv.df$gre)
 summary(input_csv.df)
